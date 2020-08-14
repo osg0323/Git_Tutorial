@@ -10,4 +10,13 @@ public class UserController {
 
 	}
 
+	//회원추가 페이지로 이동
+	@RequestMapping("/user/lnsert.do")
+	public String lnsert(){
+		logger.info("경로 :lnsert");
+
+		return "user/lnsert";
+
+	}
+
 }
